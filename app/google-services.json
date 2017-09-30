@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "616465143338",
+    "firebase_url": "https://orail-704ab.firebaseio.com",
+    "project_id": "orail-704ab",
+    "storage_bucket": "orail-704ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616465143338:android:37e518956b9b4a6f",
+        "android_client_info": {
+          "package_name": "in.co.onetwork.orail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616465143338-vulbcej78q3dketuog07ch9l8irl014r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.co.onetwork.orail",
+            "certificate_hash": "4f671b88b4e4b5d3aa4a236e0bf53ab000013767"
+          }
+        },
+        {
+          "client_id": "616465143338-mqhmlg1p59q8h7e7ojgjsqalnbclhbkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDncbyMXv65GAd10jCCvo5BXekgKqP0S8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616465143338-mqhmlg1p59q8h7e7ojgjsqalnbclhbkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
