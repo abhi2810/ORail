@@ -44,7 +44,7 @@ public class ViewTicket extends AppCompatActivity {
         ticket.child(uid).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                train.setText(dataSnapshot.child("train").getValue(String.class));
+                train.setText("Train Number"+dataSnapshot.child("train").getValue(String.class));
                 from.setText(dataSnapshot.child("from").getValue(String.class));
                 to.setText(dataSnapshot.child("to").getValue(String.class));
                 date.setText(dataSnapshot.child("date").getValue(String.class));
