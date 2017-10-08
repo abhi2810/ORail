@@ -1,4 +1,4 @@
-package in.co.onetwork.orail;
+package in.co.onetwork.orail1;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -33,7 +33,7 @@ public class Login extends AppCompatActivity {
         ed2=(EditText)findViewById(R.id.passw);
     }
     public void login(View v){
-        email=ed1.getText().toString();
+        email=ed1.getText().toString().trim();
         password=ed2.getText().toString();
         if(email.equals("")||password.equals("")){
             Toast.makeText(this, "Fields are empty", Toast.LENGTH_SHORT).show();

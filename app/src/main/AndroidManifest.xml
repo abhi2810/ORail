@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="in.co.onetwork.orail">
+    package="in.co.onetwork.orail1">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,15 @@
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login"></activity>
-        <activity android:name=".Signup" />
-        <activity android:name=".Homescreen" />
-        <activity android:name=".Book" />
-        <activity android:name=".EnterDetails" />
+        <activity android:name="in.co.onetwork.orail1.Login"></activity>
+        <activity android:name="in.co.onetwork.orail1.Signup" />
+        <activity android:name="in.co.onetwork.orail1.Homescreen" />
+        <activity android:name="in.co.onetwork.orail1.Book" />
+        <activity android:name="in.co.onetwork.orail1.EnterDetails" />
         <activity
-            android:name=".ViewTicket"
+            android:name="in.co.onetwork.orail1.ViewTicket"
             android:screenOrientation="landscape"></activity>
-        <activity android:name=".Splash">
+        <activity android:name="in.co.onetwork.orail1.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

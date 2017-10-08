@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context="in.co.onetwork.orail.Login">
+    tools:context="in.co.onetwork.orail1.Login">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

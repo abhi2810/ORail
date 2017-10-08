@@ -1,4 +1,4 @@
-package in.co.onetwork.orail;
+package in.co.onetwork.orail1;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -49,7 +49,7 @@ public class Signup extends AppCompatActivity {
         name = ed1.getText().toString();
         age = ed2.getText().toString();
         address = ed3.getText().toString();
-        email = ed4.getText().toString();
+        email = ed4.getText().toString().trim();
         password = ed5.getText().toString();
         if (name.equals("") || age.equals("") || address.equals("") || email.equals("") || password.equals("") || cpass.equals("")) {
             Toast.makeText(this, "Fields are empty", Toast.LENGTH_SHORT).show();
